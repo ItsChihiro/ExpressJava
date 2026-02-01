@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38XHrBM9vTHLHlm6w4M6gF8Befp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankAccount.executor": "Run",
+    "Application.Book.executor": "Run",
+    "Application.Car.executor": "Run",
+    "Application.Circle.executor": "Run",
+    "Application.Company.executor": "Run",
+    "Application.GameSettings.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Laptop.executor": "Run",
+    "Application.LibraryTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MathConstants.executor": "Run",
+    "Application.MathOperations.executor": "Run",
+    "Application.Person.executor": "Debug",
+    "Application.Point.executor": "Run",
+    "Application.Product.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "Application.StudentGroup.executor": "Run",
+    "Application.Teacher.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.University.executor": "Run",
+    "Application.homework_2.Car.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/marya/IdeaProjects/first-project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="GameSettings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_3.GameSettings" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_3.LibraryTest" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathConstants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_3.MathConstants" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_3.Person" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_3.University" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.GameSettings" />
+        <item itemvalue="Application.University" />
+        <item itemvalue="Application.LibraryTest" />
+        <item itemvalue="Application.MathConstants" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="" />
+      <created>1768939194883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768939194883</updated>
+      <workItem from="1768939197140" duration="2161000" />
+      <workItem from="1769010963008" duration="5985000" />
+      <workItem from="1769019345914" duration="41000" />
+      <workItem from="1769343386265" duration="4687000" />
+      <workItem from="1769524824382" duration="15236000" />
+      <workItem from="1769798097147" duration="3299000" />
+      <workItem from="1769882646142" duration="7052000" />
+      <workItem from="1769951223135" duration="4328000" />
+      <workItem from="1769955611313" duration="412000" />
+      <workItem from="1769956039940" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Student.java</url>
+          <line>4</line>
+          <properties field="studentCount" class="practice_3.Student" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Company1.java</url>
+          <line>3</line>
+          <properties field="companyName" class="practice_3.Company1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Company1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
