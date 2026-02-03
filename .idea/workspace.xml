@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/ForTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/IfElseTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/SwitchTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/WhileTaskSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_3/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_3/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_3/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -20,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ItsChihiro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ItsChihiro/ExpressJava.git&quot;,
+    &quot;accountId&quot;: &quot;9a969e41-d512-4209-ad41-a358dd9cb27d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -35,8 +58,10 @@
     "Application.Car.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.Company.executor": "Run",
+    "Application.ForTaskSolver.executor": "Run",
     "Application.GameSettings.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.IfElseTaskSolver.executor": "Run",
     "Application.Laptop.executor": "Run",
     "Application.LibraryTest.executor": "Run",
     "Application.Main.executor": "Run",
@@ -47,15 +72,19 @@
     "Application.Product.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.StudentGroup.executor": "Run",
+    "Application.SwitchTaskSolver.executor": "Run",
     "Application.Teacher.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.University.executor": "Run",
+    "Application.WhileTaskSolver.executor": "Run",
     "Application.homework_2.Car.executor": "Run",
+    "Application.practice_4.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
@@ -67,13 +96,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Person">
-    <configuration name="GameSettings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.GameSettings" />
+  <component name="RunManager" selected="Application.WhileTaskSolver">
+    <configuration name="ForTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.ForTaskSolver" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_3.*" />
+          <option name="PATTERN" value="practice_4.solvers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.LibraryTest" />
+    <configuration name="IfElseTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.IfElseTaskSolver" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_3.*" />
+          <option name="PATTERN" value="practice_4.solvers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathConstants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.MathConstants" />
+    <configuration name="SwitchTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.SwitchTaskSolver" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_3.*" />
+          <option name="PATTERN" value="practice_4.solvers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.Person" />
+    <configuration name="WhileTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.WhileTaskSolver" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_3.*" />
+          <option name="PATTERN" value="practice_4.solvers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.University" />
+    <configuration name="practice_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_3.*" />
+          <option name="PATTERN" value="practice_4.solvers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.GameSettings" />
-        <item itemvalue="Application.University" />
-        <item itemvalue="Application.LibraryTest" />
-        <item itemvalue="Application.MathConstants" />
+        <item itemvalue="Application.WhileTaskSolver" />
+        <item itemvalue="Application.ForTaskSolver" />
+        <item itemvalue="Application.SwitchTaskSolver" />
+        <item itemvalue="Application.IfElseTaskSolver" />
+        <item itemvalue="Application.practice_4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +197,24 @@
       <workItem from="1769951223135" duration="4328000" />
       <workItem from="1769955611313" duration="412000" />
       <workItem from="1769956039940" duration="327000" />
+      <workItem from="1770060428232" duration="917000" />
+      <workItem from="1770133318888" duration="9192000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
