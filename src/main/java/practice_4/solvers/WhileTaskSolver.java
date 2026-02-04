@@ -11,7 +11,8 @@ public class WhileTaskSolver {
         // commandReader();
 
         // проверка метода по подсчету сумм цифр в числе
-        sumOfDigits(123);
+        System.out.println(sumOfDigits(123));
+        System.out.println(sumOfDigits(1101));
     }
 
     public static void printAllNumbersBefore10() {
@@ -35,7 +36,7 @@ public class WhileTaskSolver {
         System.out.println("Программа завершена.");
     }
 
-    public static void sumOfDigits(int number) {
+    public static int sumOfDigits(int number) {
         // number = 123, 1 + 2 + 3
         // остаток от деления на 10: 123 % 10 = 3
         // 123 / 10 = 12
@@ -44,9 +45,10 @@ public class WhileTaskSolver {
         // остаток от деления на 10: 1 % 10 = 1
         int sum = 0;
 
-        while (number > 10) {
+        while (number > 0) {
             sum = sum + number % 10;
             number = number / 10;
         }
+        return sum;
     }
 }
