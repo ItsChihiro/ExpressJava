@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="practice 4 part 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/IfElseTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/SwitchTasks.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/homework_4_test/IfElseTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -77,6 +77,7 @@
     "Application.Rectangle.executor": "Run",
     "Application.StudentGroup.executor": "Run",
     "Application.SwitchTaskSolver.executor": "Run",
+    "Application.SwitchTasks.executor": "Run",
     "Application.Teacher.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.University.executor": "Run",
@@ -102,7 +103,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.homework_4.IfElseTasks">
+  <component name="RunManager" selected="Application.SwitchTasks">
     <configuration name="DoWhileTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.solvers.DoWhileTaskSolver" />
       <module name="first-project" />
@@ -129,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.WhileTaskSolver" />
+    <configuration name="SwitchTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.SwitchTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchTasks" />
         <item itemvalue="Application.homework_4.IfElseTasks" />
         <item itemvalue="Application.homework_4_test.IfElseTasks" />
         <item itemvalue="Application.IfElseTasks" />
         <item itemvalue="Application.DoWhileTaskSolver" />
-        <item itemvalue="Application.WhileTaskSolver" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +207,7 @@
       <workItem from="1770060428232" duration="917000" />
       <workItem from="1770133318888" duration="9360000" />
       <workItem from="1770221860971" duration="18906000" />
+      <workItem from="1770463900376" duration="9272000" />
     </task>
     <task id="LOCAL-00001" summary="practice 4 part 1">
       <option name="closed" value="true" />
