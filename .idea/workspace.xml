@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="practice 4 part 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/SwitchTasks.java" afterDir="false" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="Switch tasks">
       <change afterPath="$PROJECT_DIR$/src/main/java/homework_4_test/IfElseTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/SwitchTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/SwitchTasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,7 @@
       <workItem from="1770060428232" duration="917000" />
       <workItem from="1770133318888" duration="9360000" />
       <workItem from="1770221860971" duration="18906000" />
-      <workItem from="1770463900376" duration="9272000" />
+      <workItem from="1770463900376" duration="10650000" />
     </task>
     <task id="LOCAL-00001" summary="practice 4 part 1">
       <option name="closed" value="true" />
@@ -225,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770224212812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Switch tasks">
+      <option name="closed" value="true" />
+      <created>1770478059086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770478059086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +253,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practice 4 part 1" />
     <MESSAGE value="practice 4 part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 4 part 2" />
+    <MESSAGE value="Switch tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

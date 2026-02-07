@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class SwitchTasks {
     public static void main(String[] args) {
-        // Task 1
+        // Task 1 - check a method that reads a number from 1 to 7 and prints the corresponding day of the week
         //printDayOfWeek();
 
-        // Task 2
+        // Task 2 - check a method that that determines the ticket price based on the day of the week
         //System.out.println(getTicketPriceByDayOfWeek());
 
-        // Task 3
+        // Task 3 - check a method that converts a number from 0 to 100 into a letter grade based on a grading scale
         //System.out.println("Your grade is " + transferNumberGradeToLetter());
 
-        // Task 4
+        // Task 4 - check a method that reads a command and prints the corresponding message
         //System.out.println(processCommand());
 
-        // Task 5
+        // Task 5 - check a method that takes two numbers and an operator and prints the result
         //calculator();
     }
 
