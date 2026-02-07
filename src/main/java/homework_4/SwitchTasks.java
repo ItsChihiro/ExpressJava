@@ -97,21 +97,27 @@ public class SwitchTasks {
         System.out.print("Enter an operator (+, -, *, /): ");
         String operator = scanner.next();
 
-        double calcResult;
+        double calcResult = 0;
         boolean isValid = true;
+        String resultDescriprion = "";
 
         switch (operator) {
             case "+" -> calcResult = number1 + number2;
             case "-" -> calcResult = number1 - number2;
             case "*" -> calcResult = number1 * number2;
-            case "/" -> calcResult = number1 / number2;
+            case "/" -> {
+                if (number2 == 0) {
+                    isValid = false;
+                    resultDescriprion = "Division by zero is not allowed.";
+                } else calcResult = number1 / number2;
+            }
             default -> {
                 isValid = false;
-                calcResult = 0;
+                resultDescriprion = "Operator is unknown, it's impossible to do operation";
             }
         }
 
-        if (!isValid) System.out.println("Operator is unknown, it's impossible to do operation");
-        else System.out.println(number1 + " " + operator + " " + number2 + " = " + calcResult);
+        if (isValid) resultDescriprion = number1 + " " + operator + " " + number2 + " = " + calcResult;
+        System.out.println(resultDescriprion);
     }
 }
