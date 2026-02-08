@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class WhileTasks {
     public static void main(String[] args) {
-        // Task 1
+        // Task 1 - check a method that prints the factorial of the number
         //printFactorial();
 
-        // Task 2
+        // Task 2 - check a method that prints all even numbers from 1 to the number entered by the user
         //printEvenNumbers();
 
-        // Task 3
+        // Task 3 - check a method that reads a positive number from the console and prints a countdown to 1
         //printCountdownFromNumberTo1();
     }
 

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="DoWhile tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4/BreakContinueTasks.java" afterDir="false" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add description 1">
       <change afterPath="$PROJECT_DIR$/src/main/java/homework_4_test/IfElseTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/DoWhileTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/DoWhileTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/BreakContinueTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/BreakContinueTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/ForTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/ForTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/WhileTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/WhileTasks.java" afterDir="false" />
     </list>
@@ -215,7 +214,7 @@
       <workItem from="1770133318888" duration="9360000" />
       <workItem from="1770221860971" duration="18906000" />
       <workItem from="1770463900376" duration="14896000" />
-      <workItem from="1770559482034" duration="10964000" />
+      <workItem from="1770559482034" duration="11599000" />
     </task>
     <task id="LOCAL-00001" summary="practice 4 part 1">
       <option name="closed" value="true" />
@@ -265,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770566345422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BreakContinue tasks">
+      <option name="closed" value="true" />
+      <created>1770579579757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579579757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add description 1">
+      <option name="closed" value="true" />
+      <created>1770579598842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579598842</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +304,9 @@
     <MESSAGE value="Switch tasks add comments" />
     <MESSAGE value="While tasks" />
     <MESSAGE value="DoWhile tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="DoWhile tasks" />
+    <MESSAGE value="BreakContinue tasks" />
+    <MESSAGE value="add description 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add description 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

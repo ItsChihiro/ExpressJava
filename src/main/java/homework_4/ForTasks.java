@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class ForTasks {
     public static void main(String[] args) {
-        // Task 1 - check a method that
+        // Task 1 - check a method that prints all numbers from 1 to 100 that are divisible by 3
         //printNumbers1To100DivisibleBy3();
 
-        // Task 2 - check a method that
+        // Task 2 - check a method that reads a number n from the console and calculates the sum from 1 to n
         //printSumNumbersfrom1ToN();
 
-        // Task 3 - check a method that
+        // Task 3 - check a method that prints the multiplication table for a user-entered number
         //printMultiplicationTable();
 
-        // Task 4 - check a method that
+        // Task 4 - check a method that that checks if a given number is prime and print the answer
         //printNumberIsPrimeCheck();
 
-        // Task 5 - check a method that
+        // Task 5 - check a method that prints numbers from 1 to 10
         //printNumbersFrom1To10();
     }
 
@@ -57,7 +57,6 @@ public class ForTasks {
         System.out.print("Enter integer number: ");
         int number = scanner.nextInt();
 
-        // 1 and itself
         boolean isPrime = true;
 
         for (int i = 2; i < number; i++) {

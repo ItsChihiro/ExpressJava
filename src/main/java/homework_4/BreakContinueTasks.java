@@ -10,10 +10,10 @@ public class BreakContinueTasks {
         // Task 2 - check a method that prints numbers from 1 to 20, skipping numbers divisible by 3
         //printNumbersFrom1To20NotDivisibleBy3();
 
-        // Task 3 - check a method that otpusts only positive numbers
+        // Task 3 - check a method that outputs only positive numbers
         //printOnlyPositiveNumbers();
 
-        // Task 4 - check a method that otputs strings until "stop"
+        // Task 4 - check a method that outputs strings until "stop"
         //inputStringUntilStop();
     }
 
