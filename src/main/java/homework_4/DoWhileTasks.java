@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class DoWhileTasks {
     public static void main(String[] args) {
-        // Task 1
+        // Task 1 - check a method that prompts the user for a number until the positive one is entered
         //requestPositiveNumber();
 
-        // Task 2
+        // Task 2 - check a method that prompts the user for a password until the correct one is entered
         //checkPassword();
 
-        // Task 3
+        // Task 3 - check a method that prints numbers from 1 to 10
         //outputFrom1To10();
 
-        // Task 4
+        // Task 4 - check a method that finishes the program when user enters "exit"
         //finishProgramWhenCommandExit();
 
-        // Task 5
+        // Task 5 - check a method that counts the number of digits in an integer entered by the user
         //countDigitsInNumber();
     }
 

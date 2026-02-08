@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class ForTasks {
     public static void main(String[] args) {
-        // Task 1
+        // Task 1 - check a method that
         //printNumbers1To100DivisibleBy3();
 
-        // Task 2
+        // Task 2 - check a method that
         //printSumNumbersfrom1ToN();
 
-        // Task 3
+        // Task 3 - check a method that
         //printMultiplicationTable();
 
-        // Task 4
+        // Task 4 - check a method that
         //printNumberIsPrimeCheck();
 
-        // Task 5
+        // Task 5 - check a method that
         //printNumbersFrom1To10();
     }
 
