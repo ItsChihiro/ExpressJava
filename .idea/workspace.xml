@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="practice 4 part 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/DoWhileTaskSolver.java" afterDir="false" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add description 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_4_test/IfElseTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/solvers/WhileTaskSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_4/solvers/WhileTaskSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/BreakContinueTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/BreakContinueTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/ForTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/ForTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_4/WhileTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_4/WhileTasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -38,6 +44,9 @@
     &quot;accountId&quot;: &quot;9a969e41-d512-4209-ad41-a358dd9cb27d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -50,14 +59,18 @@
   "keyToString": {
     "Application.BankAccount.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.BreakContinueTasks.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.Company.executor": "Run",
     "Application.DoWhileTaskSolver.executor": "Run",
+    "Application.DoWhileTasks.executor": "Run",
     "Application.ForTaskSolver.executor": "Run",
+    "Application.ForTasks.executor": "Run",
     "Application.GameSettings.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.IfElseTaskSolver.executor": "Run",
+    "Application.IfElseTasks.executor": "Run",
     "Application.Laptop.executor": "Run",
     "Application.LibraryTest.executor": "Run",
     "Application.Main.executor": "Run",
@@ -69,36 +82,40 @@
     "Application.Rectangle.executor": "Run",
     "Application.StudentGroup.executor": "Run",
     "Application.SwitchTaskSolver.executor": "Run",
+    "Application.SwitchTasks.executor": "Run",
     "Application.Teacher.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.University.executor": "Run",
     "Application.WhileTaskSolver.executor": "Run",
+    "Application.WhileTasks.executor": "Run",
     "Application.homework_2.Car.executor": "Run",
+    "Application.homework_4.IfElseTasks.executor": "Run",
+    "Application.homework_4_test.IfElseTasks.executor": "Run",
     "Application.practice_4.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "homework4",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/marya/IdeaProjects/first-project/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DoWhileTaskSolver">
-    <configuration name="DoWhileTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.DoWhileTaskSolver" />
+  <component name="RunManager" selected="Application.BreakContinueTasks">
+    <configuration name="BreakContinueTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.BreakContinueTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.ForTaskSolver" />
+    <configuration name="DoWhileTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.DoWhileTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.IfElseTaskSolver" />
+    <configuration name="ForTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.ForTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.SwitchTaskSolver" />
+    <configuration name="SwitchTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.SwitchTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileTaskSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.solvers.WhileTaskSolver" />
+    <configuration name="WhileTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_4.WhileTasks" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.solvers.*" />
+          <option name="PATTERN" value="homework_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoWhileTaskSolver" />
-        <item itemvalue="Application.WhileTaskSolver" />
-        <item itemvalue="Application.ForTaskSolver" />
-        <item itemvalue="Application.SwitchTaskSolver" />
-        <item itemvalue="Application.IfElseTaskSolver" />
+        <item itemvalue="Application.BreakContinueTasks" />
+        <item itemvalue="Application.DoWhileTasks" />
+        <item itemvalue="Application.WhileTasks" />
+        <item itemvalue="Application.SwitchTasks" />
+        <item itemvalue="Application.ForTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +212,9 @@
       <workItem from="1769956039940" duration="327000" />
       <workItem from="1770060428232" duration="917000" />
       <workItem from="1770133318888" duration="9360000" />
-      <workItem from="1770221860971" duration="2218000" />
+      <workItem from="1770221860971" duration="18906000" />
+      <workItem from="1770463900376" duration="14896000" />
+      <workItem from="1770559482034" duration="11599000" />
     </task>
     <task id="LOCAL-00001" summary="practice 4 part 1">
       <option name="closed" value="true" />
@@ -205,7 +224,63 @@
       <option name="project" value="LOCAL" />
       <updated>1770148304464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="practice 4 part 2">
+      <option name="closed" value="true" />
+      <created>1770224212812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770224212812</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Switch tasks">
+      <option name="closed" value="true" />
+      <created>1770478059086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770478059086</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Switch tasks add comments">
+      <option name="closed" value="true" />
+      <created>1770487075985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770487075985</updated>
+    </task>
+    <task id="LOCAL-00005" summary="While tasks">
+      <option name="closed" value="true" />
+      <created>1770562179665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770562179665</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DoWhile tasks">
+      <option name="closed" value="true" />
+      <created>1770566345422</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770566345422</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BreakContinue tasks">
+      <option name="closed" value="true" />
+      <created>1770579579757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579579757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add description 1">
+      <option name="closed" value="true" />
+      <created>1770579598842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770579598842</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +299,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practice 4 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 4 part 1" />
+    <MESSAGE value="practice 4 part 2" />
+    <MESSAGE value="Switch tasks" />
+    <MESSAGE value="Switch tasks add comments" />
+    <MESSAGE value="While tasks" />
+    <MESSAGE value="DoWhile tasks" />
+    <MESSAGE value="BreakContinue tasks" />
+    <MESSAGE value="add description 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add description 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
