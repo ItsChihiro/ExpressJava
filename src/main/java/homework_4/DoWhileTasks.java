@@ -69,14 +69,16 @@ public class DoWhileTasks {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter an integer number: ");
-        int number = scanner.nextInt();
+        int number = Math.abs(scanner.nextInt());
 
         int count = 0;
 
         do {
             number = number / 10;
             count++;
-        } while (number > 0);
-        System.out.println("Your number has " + count + " digits");
+        } while (number != 0);
+
+        String countDescription = (count < 2) ? "Number has " + count + " digit" : "Number has " + count + " digits";
+        System.out.println(countDescription);
     }
 }

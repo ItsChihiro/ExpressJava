@@ -8,7 +8,7 @@ public class SwitchTasks {
         //printDayOfWeek();
 
         // Task 2 - check a method that that determines the ticket price based on the day of the week
-        //System.out.println(getTicketPriceByDayOfWeek());
+        //System.out.println("The ticket price is " + getTicketPriceByDayOfWeek());
 
         // Task 3 - check a method that converts a number from 0 to 100 into a letter grade based on a grading scale
         //System.out.println("Your grade is " + transferNumberGradeToLetter());
@@ -47,6 +47,12 @@ public class SwitchTasks {
         System.out.print("Enter a number from 1 to 7: ");
         int dayOfWeek = scanner.nextInt();
 
+        while (dayOfWeek < 1 || dayOfWeek > 7) {
+            System.out.println("A non-existent day of week.");
+            System.out.print("Enter a number from 1 to 7: ");
+            dayOfWeek = scanner.nextInt();
+        }
+
         return (dayOfWeek >= 1 && dayOfWeek <= 5) ? "300 rubles" : "450 rubles";
     }
 
@@ -56,9 +62,14 @@ public class SwitchTasks {
         System.out.print("Enter a number from 0 to 100: ");
         int number = scanner.nextInt();
 
+        while (number < 0 || number > 100) {
+            System.out.print("Enter a number from 0 to 100: ");
+            number = scanner.nextInt();
+        }
+
         String letter;
 
-        if (number >= 90 && number < 100) letter = "A";
+        if (number >= 90 && number <= 100) letter = "A";
         else if (number >= 80) letter = "B";
         else if (number >= 70) letter = "C";
         else if (number >= 60) letter = "D";

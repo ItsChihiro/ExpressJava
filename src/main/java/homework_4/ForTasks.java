@@ -29,7 +29,7 @@ public class ForTasks {
     public static void printSumNumbersfrom1ToN() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter integer number: ");
+        System.out.print("Enter an integer number: ");
         int n = scanner.nextInt();
 
         int sumNumbers = 0;
@@ -43,7 +43,7 @@ public class ForTasks {
     public static void printMultiplicationTable() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter integer number: ");
+        System.out.print("Enter an integer number: ");
         int number = scanner.nextInt();
 
         for (int i = 1; i <= 10; i++) {
@@ -54,17 +54,23 @@ public class ForTasks {
     public static void printNumberIsPrimeCheck() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter integer number: ");
+        System.out.print("Enter an integer number: ");
         int number = scanner.nextInt();
 
         boolean isPrime = true;
 
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                isPrime = false;
-                break;
+        if (number < 2) {
+            isPrime = false;
+        }
+        else {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    isPrime = false;
+                    break;
+                }
             }
         }
+
         System.out.println("The number " + number + " is prime - " + isPrime);
     }
 
