@@ -57,11 +57,16 @@ public class IfElseTasks {
         System.out.print("Enter grade number from 1 to 5: ");
         int grade = scanner.nextInt();
 
+        while (grade < 1 || grade > 5) {
+            System.out.print("Enter grade number from 1 to 5: ");
+            grade = scanner.nextInt();
+        }
+
         String gradeDescription;
 
         if (grade == 5) gradeDescription = "Excellent";
         else if (grade == 4) gradeDescription = "Good";
-        else if (grade == 3) gradeDescription = "Satifactory";
+        else if (grade == 3) gradeDescription = "Satisfactory";
         else gradeDescription = "Unsatisfactory";
 
         System.out.println("Grade is " + gradeDescription);
@@ -70,8 +75,8 @@ public class IfElseTasks {
     public static String checkParity() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter any number: ");
-        double number = scanner.nextDouble();
+        System.out.print("Enter an integer number: ");
+        int number = scanner.nextInt();
 
         return (number % 2 == 0) ? "even" : "odd";
     }
@@ -81,6 +86,11 @@ public class IfElseTasks {
 
         System.out.print("Enter your age number: ");
         int age = scanner.nextInt();
+
+        while (age < 0 || age > 150) {
+            System.out.print("Enter your age number: ");
+            age = scanner.nextInt();
+        }
 
         int discount = 0;
         if (age < 18) discount = 25;
@@ -94,6 +104,11 @@ public class IfElseTasks {
 
         System.out.print("Enter your test result from 0-100: ");
         int testResult = scanner.nextInt();
+
+        while (testResult < 0 || testResult > 100) {
+            System.out.print("Enter your test result from 0-100: ");
+            testResult = scanner.nextInt();
+        }
 
         String resultDescription;
 
