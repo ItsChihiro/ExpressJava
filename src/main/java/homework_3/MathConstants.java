@@ -2,7 +2,7 @@ package homework_3;
 
 public class MathConstants {
     static final double PI = 3.14159;
-    final double E = 2.71828;
+    static final double E = 2.71828;
 
     static double calculateCircleArea(double r){
         return PI * r * r;

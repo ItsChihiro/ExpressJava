@@ -7,17 +7,27 @@ public class GameSettings {
 
     public GameSettings(String gameName, int currentPlayers) {
         this.gameName = gameName;
-        this.currentPlayers = currentPlayers;
+
+        if (currentPlayers < 0) {
+            this.currentPlayers = 0;
+        } else {
+            this.currentPlayers = Math.min(currentPlayers, maxPlayers);
+        }
     }
 
     static void setMaxPlayers(int maxPlayersValue) {
-        maxPlayers = maxPlayersValue;
+        if (maxPlayersValue < 0) {
+            maxPlayers = 0;
+        } else {
+            maxPlayers = maxPlayersValue;
+        }
     }
 
-    void addPlayer() {
-        boolean b = this.currentPlayers < GameSettings.maxPlayers;
-        if (b) {
-            this.currentPlayers++;
+    public void addPlayer() {
+        if (currentPlayers < maxPlayers) {
+            currentPlayers++;
+        } else {
+            System.out.println("Cannot add more players to " + gameName);
         }
     }
 
@@ -26,10 +36,15 @@ public class GameSettings {
     }
 
     public static void main(String[] args) {
-        GameSettings game1 = new GameSettings("UNO", 5);
-        GameSettings game2 = new GameSettings("Monopoly", 7);
+        GameSettings.setMaxPlayers(5);
 
-        GameSettings.setMaxPlayers(8);
+        GameSettings game1 = new GameSettings("UNO", 7);
+        GameSettings game2 = new GameSettings("Monopoly", 5);
+
+        game1.printGameStatus();
+        game2.printGameStatus();
+
+        GameSettings.setMaxPlayers(6);
 
         game1.addPlayer();
         game1.printGameStatus();
