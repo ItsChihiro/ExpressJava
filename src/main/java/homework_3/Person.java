@@ -4,29 +4,29 @@ public class Person {
     private String firstName, lastName;
     private final String ssn;
 
-    Person(String firstName, String lastName, String ssn) {
+    public Person(String firstName, String lastName, String ssn) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.ssn = ssn;
     }
 
-    String getFirstName() {
+    public String getFirstName() {
         return this.firstName;
     }
 
-    String getLastName() {
+    public String getLastName() {
         return this.lastName;
     }
 
-    String getSsn() {
+    public String getSsn() {
         return this.ssn;
     }
 
-    void setFirstName(String newFirstName) {
+    public void setFirstName(String newFirstName) {
         this.firstName = newFirstName;
     }
 
-    void setLastName(String newLastName) {
+    public void setLastName(String newLastName) {
         this.lastName = newLastName;
     }
 

@@ -5,7 +5,7 @@ public class University {
     final int studentID;
     String studentName;
 
-    University(int studentID, String studentName) {
+    public University(int studentID, String studentName) {
         this.studentID = studentID;
         this.studentName = studentName;
     }
@@ -14,7 +14,7 @@ public class University {
         universityName = newName;
     }
 
-    String getStudentName() {
+    public String getStudentName() {
         return this.studentName;
     }
 
@@ -24,9 +24,13 @@ public class University {
 
     public static void main(String[] args) {
         University student1 = new University(1001, "Mike");
+
         University student2 = new University(1002, "Peter");
+
         University student3 = new University(1003, "Max");
+
         University.changeUniversityName("MIT");
+
         student1.printStudentInfo();
         student2.printStudentInfo();
         student3.printStudentInfo();

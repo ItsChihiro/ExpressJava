@@ -5,7 +5,7 @@ public class GameSettings {
     final String gameName;
     int currentPlayers;
 
-    GameSettings(String gameName, int currentPlayers) {
+    public GameSettings(String gameName, int currentPlayers) {
         this.gameName = gameName;
         this.currentPlayers = currentPlayers;
     }
@@ -28,7 +28,9 @@ public class GameSettings {
     public static void main(String[] args) {
         GameSettings game1 = new GameSettings("UNO", 5);
         GameSettings game2 = new GameSettings("Monopoly", 7);
+
         GameSettings.setMaxPlayers(8);
+
         game1.addPlayer();
         game1.printGameStatus();
 
