@@ -23,12 +23,12 @@ public class Company {
     }
 
     public static void main(String[] args) {
-        Company Peter = new Company(1001, "Peter");
-        Company Nick = new Company(1002, "Nick");
+        Company peter = new Company(1001, "Peter");
+        Company nick = new Company(1002, "Nick");
 
         Company.companyName = "Meta";
 
         Company.printCompanyName();
-//        Peter.employeeID = 1003;
+//        peter.employeeID = 1003; // impossible to change
     }
 }
