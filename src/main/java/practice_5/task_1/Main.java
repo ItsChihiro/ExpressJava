@@ -2,7 +2,7 @@ package practice_5.task_1;
 
 public class Main {
     public static void main(String[] args) {
-        Transport car = new Car();
+        Transport car = new Car(); // SOLID - l принцип подстановки Барбары Лисков, для этого структура создания объектов должна быть одинаковой
         Transport ship = new Ship();
         Transport plane = new Plane();
 
