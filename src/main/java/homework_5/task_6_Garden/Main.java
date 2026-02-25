@@ -13,4 +13,17 @@ package homework_5.task_6_Garden;
  */
 
 public class Main {
+    static void main(String[] args) {
+        Garden garden1 = new Garden();
+        Garden garden2 = new Garden();
+
+        Orchid orchid1 = new Orchid();
+        Cactus cactus1 = new Cactus();
+
+        garden1.addPlant(orchid1);
+        garden1.care();
+
+        garden2.addPlant(cactus1);
+        garden2.care();
+    }
 }

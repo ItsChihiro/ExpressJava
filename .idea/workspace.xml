@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add images" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add getters">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Cactus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Garden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Orchid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/AmusementPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Attraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Maintainable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/RollerCoaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Exhibit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Manuscript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Sculpture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +113,9 @@
     "Application.homework_5.task_2_Pets.Main.executor": "Run",
     "Application.homework_5.task_3_Restaurant.Main.executor": "Run",
     "Application.homework_5.task_4_Aquarium.Main.executor": "Run",
+    "Application.homework_5.task_6_Garden.Main.executor": "Run",
+    "Application.homework_5.task_7_Park.Main.executor": "Run",
+    "Application.homework_5.task_8_Museum.Main.executor": "Run",
     "Application.practice_4.Main.executor": "Run",
     "Application.practice_5.task_2.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -119,7 +145,20 @@
       <recent name="homework_5.task_7_Park" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework_5.task_1_Zoo.Main">
+  <component name="RunManager" selected="Application.homework_5.task_8_Museum.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_5.task_5_Farm.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_5.task_5_Farm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homework_5.task_1_Zoo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_5.task_1_Zoo.Main" />
       <module name="first-project" />
@@ -133,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_5.task_2_Pets.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_2_Pets.Main" />
+    <configuration name="homework_5.task_6_Garden.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_5.task_6_Garden.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_5.task_2_Pets.*" />
+          <option name="PATTERN" value="homework_5.task_6_Garden.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_5.task_3_Restaurant.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_3_Restaurant.Main" />
+    <configuration name="homework_5.task_7_Park.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_5.task_7_Park.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_5.task_3_Restaurant.*" />
+          <option name="PATTERN" value="homework_5.task_7_Park.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,25 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_5.task_4_Aquarium.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_4_Aquarium.Main" />
+    <configuration name="homework_5.task_8_Museum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_5.task_8_Museum.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_5.task_4_Aquarium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_5.task_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_5.task_2.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_5.task_2.*" />
+          <option name="PATTERN" value="homework_5.task_8_Museum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework_5.task_8_Museum.Main" />
+        <item itemvalue="Application.homework_5.task_7_Park.Main" />
+        <item itemvalue="Application.homework_5.task_6_Garden.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework_5.task_1_Zoo.Main" />
-        <item itemvalue="Application.homework_5.task_2_Pets.Main" />
-        <item itemvalue="Application.homework_5.task_4_Aquarium.Main" />
-        <item itemvalue="Application.homework_5.task_3_Restaurant.Main" />
-        <item itemvalue="Application.practice_5.task_2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771877390714</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add getters">
+      <option name="closed" value="true" />
+      <created>1772042236890</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772042236890</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +389,8 @@
     <MESSAGE value="task 1" />
     <MESSAGE value="first 4 tasks" />
     <MESSAGE value="add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add images" />
+    <MESSAGE value="add getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
