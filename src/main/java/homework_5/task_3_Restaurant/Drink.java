@@ -7,6 +7,10 @@ public class Drink extends Dish{
         this.volume = volume;
     }
 
+    public int getVolume() {
+        return volume;
+    }
+
     @Override
     void displayDescription() {
         System.out.println("Drink volume: " + this.volume + " ml.");

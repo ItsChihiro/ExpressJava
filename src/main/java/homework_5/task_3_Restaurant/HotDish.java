@@ -7,6 +7,10 @@ public class HotDish extends Dish{
         this.temperature = temperature;
     }
 
+    public int getTemperature() {
+        return temperature;
+    }
+
     @Override
     void displayDescription() {
         System.out.println("Hot dish temperature: " + this.temperature + " degrees.");

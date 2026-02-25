@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="task 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_1_Zoo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_1_Zoo/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_1_Zoo/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_1_Zoo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_1_Zoo/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_2_Pets/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_2_Pets/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_2_Pets/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_2_Pets/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_2_Pets/PetOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_3_Restaurant/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_3_Restaurant/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_3_Restaurant/HotDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_3_Restaurant/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_3_Restaurant/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_4_Aquarium/Aquarium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_4_Aquarium/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_4_Aquarium/SeaCreature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_4_Aquarium/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_4_Aquarium/StarFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771708311276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first 4 tasks">
+      <option name="closed" value="true" />
+      <created>1771877325990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771877325990</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add images">
+      <option name="closed" value="true" />
+      <created>1771877390714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771877390714</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +353,9 @@
     <MESSAGE value="BreakContinue tasks" />
     <MESSAGE value="add description 1" />
     <MESSAGE value="task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 1" />
+    <MESSAGE value="first 4 tasks" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
