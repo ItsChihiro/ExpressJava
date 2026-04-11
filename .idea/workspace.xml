@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="task 3 contact_book">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/user_monitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/user_monitor/UserMonitor.java" afterDir="false" />
+    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="task 4 user_monitor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/photo_editor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/photo_editor/PhotoEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +112,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.practice_6.user_monitor.Main">
-    <configuration name="practice_5.task_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_5.task_2.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_6.photo_editor.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_5.task_2.*" />
+          <option name="PATTERN" value="practice_6.photo_editor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.practice_6.user_monitor.Main" />
         <item itemvalue="Application.practice_6.contact_book.Main" />
         <item itemvalue="Application.practice_6.restaurant_manager.Main" />
         <item itemvalue="Application.practice_6.cost_counter.Main" />
-        <item itemvalue="Application.practice_5.task_2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775932090773</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task 4 user_monitor">
+      <option name="closed" value="true" />
+      <created>1775932457149</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775932457149</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +365,8 @@
     <MESSAGE value="task 1 cost_counter" />
     <MESSAGE value="task 1 restaurant_manager" />
     <MESSAGE value="task 3 contact_book" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3 contact_book" />
+    <MESSAGE value="task 4 user_monitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 4 user_monitor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,6 +387,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice_3/Company1.java</url>
           <line>13</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice_6/photo_editor/Main.java</url>
+          <line>3</line>
+          <properties class="practice_6.photo_editor.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
