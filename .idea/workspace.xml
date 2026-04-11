@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="task 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_2/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_5/task_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_5/task_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/cost_counter/CostCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/cost_counter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,12 +91,13 @@
     "Application.homework_4_test.IfElseTasks.executor": "Run",
     "Application.practice_4.Main.executor": "Run",
     "Application.practice_5.task_2.Main.executor": "Run",
+    "Application.practice_6.cost_counter.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "practice5",
+    "git-widget-placeholder": "practice6",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
@@ -114,20 +109,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.practice_5.task_2.Main">
-    <configuration name="ForTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_4.ForTasks" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.practice_6.cost_counter.Main">
     <configuration name="IfElseTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_4.IfElseTasks" />
       <module name="first-project" />
@@ -180,13 +162,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_6.cost_counter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_6.cost_counter.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_6.cost_counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice_6.cost_counter.Main" />
         <item itemvalue="Application.practice_5.task_2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SwitchTasks" />
         <item itemvalue="Application.IfElseTasks" />
-        <item itemvalue="Application.ForTasks" />
       </list>
     </recent_temporary>
   </component>
