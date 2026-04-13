@@ -13,19 +13,17 @@ package homework_5.task_2_Pets;
  */
 
 public class Main {
-    static void main(String[] args) {
-        PetOwner owner1 = new PetOwner();
+    public static void main(String[] args) {
+        PetOwner owner = new PetOwner();
 
         Cat murka = new Cat();
 
-        owner1.acceptPet(murka);
-        owner1.care();
-
-        PetOwner owner2 = new PetOwner();
+        owner.acceptPet(murka);
+        owner.care();
 
         Dog muhtar = new Dog();
 
-        owner2.acceptPet(muhtar);
-        owner2.care();
+        owner.acceptPet(muhtar);
+        owner.care();
     }
 }

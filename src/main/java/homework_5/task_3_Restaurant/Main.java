@@ -12,19 +12,17 @@ package homework_5.task_3_Restaurant;
  */
 
 public class Main {
-    static void main(String[] args) {
-        Menu menu1 = new Menu();
+    public static void main(String[] args) {
+        Menu menu = new Menu();
 
-        HotDish carbanora = new HotDish(70);
+        HotDish carbonara = new HotDish(70);
 
-        menu1.addDish(carbanora);
-        menu1.displayDishDescription();
-
-        Menu menu2 = new Menu();
+        menu.addDish(carbonara);
+        menu.displayDishDescription();
 
         Drink margarita = new Drink(200);
 
-        menu2.addDish(margarita);
-        menu2.displayDishDescription();
+        menu.addDish(margarita);
+        menu.displayDishDescription();
     }
 }
