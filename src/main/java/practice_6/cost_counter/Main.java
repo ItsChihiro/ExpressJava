@@ -1,7 +1,7 @@
 package practice_6.cost_counter;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         CostCounter costCounter = new CostCounter();
         costCounter.addCosts(1, 123.12);
         costCounter.addCosts(2, 1233.2);

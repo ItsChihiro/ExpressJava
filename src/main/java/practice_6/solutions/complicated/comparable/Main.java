@@ -5,7 +5,7 @@ import java.time.ZoneId;
 import java.util.Date;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         LocalDate yesterday = LocalDate.now().minusDays(1);
         LocalDate tomorrow = LocalDate.now().plusDays(1);
 
