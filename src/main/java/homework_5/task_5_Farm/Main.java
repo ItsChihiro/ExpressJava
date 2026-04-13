@@ -13,17 +13,17 @@ package homework_5.task_5_Farm;
  */
 
 public class Main {
-    static void main(String[] args) {
-        Farm farm1 = new Farm();
-        Farm farm2 = new Farm();
+    public static void main(String[] args) {
+        Farm farm = new Farm();
+        farm.manageAnimal();
 
         Cow cow1 = new Cow();
         Chicken chicken1 = new Chicken();
 
-        farm1.addAnimal(cow1);
-        farm1.manageAnimal();
+        farm.addAnimal(cow1);
+        farm.manageAnimal();
 
-        farm2.addAnimal(chicken1);
-        farm2.manageAnimal();
+        farm.addAnimal(chicken1);
+        farm.manageAnimal();
     }
 }

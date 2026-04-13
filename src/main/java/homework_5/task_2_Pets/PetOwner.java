@@ -8,6 +8,10 @@ public class PetOwner {
     }
 
     public void care() {
+        if (pet == null) {
+            System.out.println("There are no pets.");
+            return;
+        }
         pet.interact();
         pet.feed();
     }

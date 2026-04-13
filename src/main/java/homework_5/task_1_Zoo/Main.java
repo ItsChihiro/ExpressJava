@@ -12,19 +12,18 @@ package homework_5.task_1_Zoo;
 
 
 public class Main {
-    static void main(String[] args) {
-        Zoo zoo1 = new Zoo();
+    public static void main(String[] args) {
+        Zoo zoo = new Zoo();
+        zoo.displayBehaviour();
 
         Bird bird1 = new Bird();
 
-        zoo1.addAnimal(bird1);
-        zoo1.displayBehaviour();
-
-        Zoo zoo2 = new Zoo();
+        zoo.addAnimal(bird1);
+        zoo.displayBehaviour();
 
         Elephant elephant1 = new Elephant();
 
-        zoo2.addAnimal(elephant1);
-        zoo2.displayBehaviour();
+        zoo.addAnimal(elephant1);
+        zoo.displayBehaviour();
     }
 }

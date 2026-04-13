@@ -8,6 +8,10 @@ public class Garden {
     }
 
     public void care() {
-        this.plant.care();
+        if (plant == null) {
+            System.out.println("There are no plants.");
+            return;
+        }
+        plant.care();
     }
 }

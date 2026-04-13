@@ -12,17 +12,17 @@ package homework_5.task_8_Museum;
  */
 
 public class Main {
-    static void main(String[] args) {
-        Museum museum1 = new Museum();
-        Museum museum2 = new Museum();
+    public static void main(String[] args) {
+        Museum museum = new Museum();
+        museum.displayExhibitInfo();
 
         Manuscript manuscript1 = new Manuscript();
         Sculpture sculpture1 = new Sculpture();
 
-        museum1.setExhibit(manuscript1);
-        museum1.displayExhibitInfo();
+        museum.setExhibit(manuscript1);
+        museum.displayExhibitInfo();
 
-        museum2.setExhibit(sculpture1);
-        museum2.displayExhibitInfo();
+        museum.setExhibit(sculpture1);
+        museum.displayExhibitInfo();
     }
 }

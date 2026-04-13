@@ -13,19 +13,19 @@ package homework_5.task_4_Aquarium;
  */
 
 public class Main {
-    static void main(String[] args) {
-        Aquarium aquarium1 = new Aquarium();
+    public static void main(String[] args) {
+        Aquarium aquarium = new Aquarium();
+
+        aquarium.showBehaviour();
 
         StarFish starFish1 = new StarFish();
 
-        aquarium1.addSeaCreature(starFish1);
-        aquarium1.showBehaviour();
-
-        Aquarium aquarium2 = new Aquarium();
+        aquarium.addSeaCreature(starFish1);
+        aquarium.showBehaviour();
 
         Shark shark1 = new Shark();
 
-        aquarium2.addSeaCreature(shark1);
-        aquarium2.showBehaviour();
+        aquarium.addSeaCreature(shark1);
+        aquarium.showBehaviour();
     }
 }
