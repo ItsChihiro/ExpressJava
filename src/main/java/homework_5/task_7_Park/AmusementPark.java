@@ -12,7 +12,8 @@ public class AmusementPark {
             System.out.println("There are no attractions.");
             return;
         }
+
         attraction.showInfo();
-        if (attraction instanceof Maintainable) ((Maintainable) attraction).maintain();
+        attraction.maintain();
     }
 }
