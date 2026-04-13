@@ -1,7 +1,7 @@
 package practice_6.restaurant_manager;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         RestaurantManager manager = new RestaurantManager();
 
         manager.addNewOrder("French fries");

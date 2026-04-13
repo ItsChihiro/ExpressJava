@@ -1,7 +1,7 @@
 package practice_6.contact_book;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         ContactBook contactBook = new ContactBook();
         contactBook.addContact("Sam", 1233);
         contactBook.addContact("Luk", 1234);
