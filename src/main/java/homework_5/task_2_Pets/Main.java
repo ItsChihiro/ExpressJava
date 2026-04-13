@@ -15,6 +15,7 @@ package homework_5.task_2_Pets;
 public class Main {
     public static void main(String[] args) {
         PetOwner owner = new PetOwner();
+        owner.care();
 
         Cat murka = new Cat();
 

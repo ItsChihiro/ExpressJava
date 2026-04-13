@@ -14,6 +14,7 @@ package homework_5.task_3_Restaurant;
 public class Main {
     public static void main(String[] args) {
         Menu menu = new Menu();
+        menu.displayDishDescription();
 
         HotDish carbonara = new HotDish(70);
 

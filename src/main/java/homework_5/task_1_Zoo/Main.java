@@ -14,6 +14,7 @@ package homework_5.task_1_Zoo;
 public class Main {
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
+        zoo.displayBehaviour();
 
         Bird bird1 = new Bird();
 

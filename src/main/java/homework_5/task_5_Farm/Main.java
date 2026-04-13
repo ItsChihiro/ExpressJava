@@ -15,6 +15,7 @@ package homework_5.task_5_Farm;
 public class Main {
     public static void main(String[] args) {
         Farm farm = new Farm();
+        farm.manageAnimal();
 
         Cow cow1 = new Cow();
         Chicken chicken1 = new Chicken();

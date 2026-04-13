@@ -8,7 +8,11 @@ public class Farm {
     }
 
     void manageAnimal() {
-        this.animal.function();
-        this.animal.care();
+        if (animal == null) {
+            System.out.println("There are no animals.");
+            return;
+        }
+        animal.function();
+        animal.care();
     }
 }

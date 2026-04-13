@@ -13,6 +13,7 @@ package homework_5.task_7_Park;
 public class Main {
     public static void main(String[] args) {
         AmusementPark park = new AmusementPark();
+        park.showAttractionInfo();
 
         RollerCoaster rollerCoaster1 = new RollerCoaster();
         Carousel carousel1 = new Carousel();

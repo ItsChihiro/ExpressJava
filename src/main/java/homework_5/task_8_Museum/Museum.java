@@ -8,7 +8,11 @@ public class Museum {
     }
 
     public void displayExhibitInfo() {
-        this.exhibit.provideInfo();
-        this.exhibit.maintain();
+        if (exhibit == null) {
+            System.out.println("There are no exhibits.");
+            return;
+        }
+        exhibit.provideInfo();
+        exhibit.maintain();
     }
 }

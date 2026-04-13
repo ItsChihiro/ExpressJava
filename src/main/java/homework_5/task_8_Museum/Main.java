@@ -14,6 +14,7 @@ package homework_5.task_8_Museum;
 public class Main {
     public static void main(String[] args) {
         Museum museum = new Museum();
+        museum.displayExhibitInfo();
 
         Manuscript manuscript1 = new Manuscript();
         Sculpture sculpture1 = new Sculpture();

@@ -16,6 +16,8 @@ public class Main {
     public static void main(String[] args) {
         Aquarium aquarium = new Aquarium();
 
+        aquarium.showBehaviour();
+
         StarFish starFish1 = new StarFish();
 
         aquarium.addSeaCreature(starFish1);

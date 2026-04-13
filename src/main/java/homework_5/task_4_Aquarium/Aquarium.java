@@ -8,7 +8,10 @@ public class Aquarium {
     }
 
     public void showBehaviour() {
+        if (this.seaCreature == null) {
+            System.out.println("Aquarium is empty.");
+            return;
+        }
         this.seaCreature.move();
-        this.seaCreature.behave();
     }
 }

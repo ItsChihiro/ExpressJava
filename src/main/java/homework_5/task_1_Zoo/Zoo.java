@@ -8,6 +8,10 @@ public class Zoo {
     }
 
     public void displayBehaviour() {
+        if (this.animal == null) {
+            System.out.println("There are no animals.");
+            return;
+        }
         this.animal.makeSound();
         this.animal.move();
     }

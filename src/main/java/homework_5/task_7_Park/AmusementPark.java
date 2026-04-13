@@ -8,7 +8,11 @@ public class AmusementPark {
     }
 
     public void showAttractionInfo() {
-        this.attraction.showInfo();
-        if (this.attraction instanceof Maintainable) ((Maintainable) this.attraction).maintain();
+        if (attraction == null) {
+            System.out.println("There are no attractions.");
+            return;
+        }
+        attraction.showInfo();
+        if (attraction instanceof Maintainable) ((Maintainable) attraction).maintain();
     }
 }

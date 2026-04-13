@@ -8,6 +8,10 @@ public class Menu {
     }
 
     public void displayDishDescription() {
+        if (dish == null) {
+            System.out.println("There are no dishes.");
+            return;
+        }
         dish.displayDescription();
     }
 }
