@@ -1,12 +1,13 @@
 package homework_6.linked_list;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task 1.");
 
-        LinkedList<String> listOfStrings = new LinkedList<>();
+        List<String> listOfStrings = new LinkedList<>();
 
         listOfStrings.add("one");
         listOfStrings.add("two");
@@ -20,9 +21,10 @@ public class Main {
         }
 
 
+
         System.out.println("Task 2.");
 
-        LinkedList<String> tasksQueue = new LinkedList<>();
+        List<String> tasksQueue = new LinkedList<>();
 
         tasksQueue.add("Go to gym");
         tasksQueue.add("Do homework");
