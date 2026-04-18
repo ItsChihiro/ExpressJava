@@ -13,7 +13,7 @@ public class Main {
         treeSet.add(12);
         treeSet.add(13);
 
-        Integer target = 13;
+        int target = 12;
 
         Integer higher = treeSet.higher(target);
         Integer lower =  treeSet.lower(target);

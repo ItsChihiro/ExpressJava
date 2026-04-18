@@ -40,7 +40,7 @@ public class Main {
     }
 
 
-    public static void printUsersUnderAge(HashMap<String, Integer> users, Integer age) {
+    public static void printUsersUnderAge(HashMap<String, Integer> users, int age) {
         System.out.println("Users is under " + age + ": ");
         for (Map.Entry<String, Integer> map: users.entrySet()) {
             if (map.getValue() < age) {
