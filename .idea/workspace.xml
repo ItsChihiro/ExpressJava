@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="add getters">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Cactus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Garden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Orchid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/AmusementPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Attraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Maintainable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/RollerCoaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Exhibit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Manuscript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Museum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Sculpture.java" afterDir="false" />
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="move hw p1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_7/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_5_Farm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_6_Garden/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_7_Park/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_5/task_8_Museum/Main.java" afterDir="false" />
-    <list default="true" id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="task 4 user_monitor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/photo_editor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice_6/photo_editor/PhotoEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,195 +17,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="homework5" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ItsChihiro&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ItsChihiro"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ItsChihiro/ExpressJava.git&quot;,
-    &quot;accountId&quot;: &quot;9a969e41-d512-4209-ad41-a358dd9cb27d&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ItsChihiro/ExpressJava.git",
+    "accountId": "9a969e41-d512-4209-ad41-a358dd9cb27d"
   }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="38XHrBM9vTHLHlm6w4M6gF8Befp" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3Cd1UrtI7MZN6eYxZIJJlKv6BRt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BankAccount.executor": "Run",
-    "Application.Book.executor": "Run",
-    "Application.BreakContinueTasks.executor": "Run",
-    "Application.Car.executor": "Run",
-    "Application.Circle.executor": "Run",
-    "Application.Company.executor": "Run",
-    "Application.DoWhileTaskSolver.executor": "Run",
-    "Application.DoWhileTasks.executor": "Run",
-    "Application.ForTaskSolver.executor": "Run",
-    "Application.ForTasks.executor": "Run",
-    "Application.GameSettings.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.IfElseTaskSolver.executor": "Run",
-    "Application.IfElseTasks.executor": "Run",
-    "Application.Laptop.executor": "Run",
-    "Application.LibraryTest.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.MathConstants.executor": "Run",
-    "Application.MathOperations.executor": "Run",
-    "Application.Person.executor": "Debug",
-    "Application.Point.executor": "Run",
-    "Application.Product.executor": "Run",
-    "Application.Rectangle.executor": "Run",
-    "Application.StudentGroup.executor": "Run",
-    "Application.SwitchTaskSolver.executor": "Run",
-    "Application.SwitchTasks.executor": "Run",
-    "Application.Teacher.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.University.executor": "Run",
-    "Application.WhileTaskSolver.executor": "Run",
-    "Application.WhileTasks.executor": "Run",
-    "Application.homework_2.Car.executor": "Run",
-    "Application.homework_4.IfElseTasks.executor": "Run",
-    "Application.homework_4_test.IfElseTasks.executor": "Run",
-    "Application.homework_5.task_1_Zoo.Main.executor": "Run",
-    "Application.homework_5.task_2_Pets.Main.executor": "Run",
-    "Application.homework_5.task_3_Restaurant.Main.executor": "Run",
-    "Application.homework_5.task_4_Aquarium.Main.executor": "Run",
-    "Application.homework_5.task_6_Garden.Main.executor": "Run",
-    "Application.homework_5.task_7_Park.Main.executor": "Run",
-    "Application.homework_5.task_8_Museum.Main.executor": "Run",
-    "Application.practice_4.Main.executor": "Run",
-    "Application.practice_5.task_2.Main.executor": "Run",
-    "Application.practice_6.contact_book.Main.executor": "Run",
-    "Application.practice_6.cost_counter.Main.executor": "Run",
-    "Application.practice_6.restaurant_manager.Main.executor": "Run",
-    "Application.practice_6.user_monitor.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "homework5",
-    "git-widget-placeholder": "practice6",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/marya/IdeaProjects/first-project/src/main/java/homework_5",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/marya/IdeaProjects/first-project/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+    "git-widget-placeholder": "practice7",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_6.photo_editor.Main" />
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\marya\IdeaProjects\first-project\src\main\java\homework_5" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="homework_5.task_8_Museum" />
-      <recent name="homework_5.task_7_Park" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.homework_5.task_8_Museum.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_5_Farm.Main" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_7.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_6.photo_editor.*" />
-          <option name="PATTERN" value="homework_5.task_5_Farm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_6.contact_book.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_6.contact_book.Main" />
-    <configuration name="homework_5.task_1_Zoo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_1_Zoo.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_6.contact_book.*" />
-          <option name="PATTERN" value="homework_5.task_1_Zoo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice_6.cost_counter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_6.cost_counter.Main" />
-    <configuration name="homework_5.task_6_Garden.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_6_Garden.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_5.task_6_Garden.*" />
-          <option name="PATTERN" value="practice_6.cost_counter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_5.task_7_Park.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_7_Park.Main" />
-    <configuration name="practice_6.restaurant_manager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_6.restaurant_manager.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_5.task_7_Park.*" />
-          <option name="PATTERN" value="practice_6.restaurant_manager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_5.task_8_Museum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_5.task_8_Museum.Main" />
-    <configuration name="practice_6.user_monitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_6.user_monitor.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_6.user_monitor.*" />
-          <option name="PATTERN" value="homework_5.task_8_Museum.*" />
+          <option name="PATTERN" value="practices.practice_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,15 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework_5.task_8_Museum.Main" />
-        <item itemvalue="Application.homework_5.task_7_Park.Main" />
-        <item itemvalue="Application.homework_5.task_6_Garden.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.practice_6.user_monitor.Main" />
-        <item itemvalue="Application.practice_6.contact_book.Main" />
-        <item itemvalue="Application.practice_6.restaurant_manager.Main" />
-        <item itemvalue="Application.practice_6.cost_counter.Main" />
-        <item itemvalue="Application.homework_5.task_1_Zoo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -258,236 +83,36 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7eabe19c-e945-495a-82f5-47ba35ee82f3" name="Changes" comment="" />
-      <created>1768939194883</created>
+      <changelist id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="" />
+      <created>1776699631392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768939194883</updated>
-      <workItem from="1768939197140" duration="2161000" />
-      <workItem from="1769010963008" duration="5985000" />
-      <workItem from="1769019345914" duration="41000" />
-      <workItem from="1769343386265" duration="4687000" />
-      <workItem from="1769524824382" duration="15236000" />
-      <workItem from="1769798097147" duration="3299000" />
-      <workItem from="1769882646142" duration="7052000" />
-      <workItem from="1769951223135" duration="4328000" />
-      <workItem from="1769955611313" duration="412000" />
-      <workItem from="1769956039940" duration="327000" />
-      <workItem from="1770060428232" duration="917000" />
-      <workItem from="1770133318888" duration="9360000" />
-      <workItem from="1770221860971" duration="18906000" />
-      <workItem from="1770463900376" duration="14896000" />
-      <workItem from="1770559482034" duration="11599000" />
-      <workItem from="1770830696473" duration="4325000" />
+      <updated>1776699631392</updated>
     </task>
-    <task id="LOCAL-00001" summary="practice 4 part 1">
+    <task id="LOCAL-00001" summary="move hw p1">
       <option name="closed" value="true" />
-      <created>1770148304464</created>
+      <created>1776699944655</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1770148304464</updated>
+      <updated>1776699944655</updated>
     </task>
-    <task id="LOCAL-00002" summary="practice 4 part 2">
-      <option name="closed" value="true" />
-      <created>1770224212812</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1770224212812</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Switch tasks">
-      <option name="closed" value="true" />
-      <created>1770478059086</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1770478059086</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Switch tasks add comments">
-      <option name="closed" value="true" />
-      <created>1770487075985</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1770487075985</updated>
-    </task>
-    <task id="LOCAL-00005" summary="While tasks">
-      <option name="closed" value="true" />
-      <created>1770562179665</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1770562179665</updated>
-    </task>
-    <task id="LOCAL-00006" summary="DoWhile tasks">
-      <option name="closed" value="true" />
-      <created>1770566345422</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1770566345422</updated>
-    </task>
-    <task id="LOCAL-00007" summary="BreakContinue tasks">
-      <option name="closed" value="true" />
-      <created>1770579579757</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1770579579757</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add description 1">
-      <option name="closed" value="true" />
-      <created>1770579598842</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1770579598842</updated>
-    </task>
-    <task id="LOCAL-00009" summary="task 1">
-      <option name="closed" value="true" />
-      <created>1771708311276</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1771708311276</updated>
-    </task>
-    <task id="LOCAL-00010" summary="task 1 cost_counter">
-      <option name="closed" value="true" />
-      <created>1775930685880</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1775930685880</updated>
-    </task>
-    <task id="LOCAL-00011" summary="task 1 restaurant_manager">
-      <option name="closed" value="true" />
-      <created>1775931560662</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1775931560662</updated>
-    </task>
-    <task id="LOCAL-00012" summary="task 3 contact_book">
-      <option name="closed" value="true" />
-      <created>1775932090773</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1775932090773</updated>
-    </task>
-    <task id="LOCAL-00013" summary="task 4 user_monitor">
-      <option name="closed" value="true" />
-      <created>1775932457149</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1775932457149</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
-    <task id="LOCAL-00010" summary="first 4 tasks">
-      <option name="closed" value="true" />
-      <created>1771877325990</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1771877325990</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add images">
-      <option name="closed" value="true" />
-      <created>1771877390714</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1771877390714</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add getters">
-      <option name="closed" value="true" />
-      <created>1772042236890</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1772042236890</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practice 4 part 1" />
-    <MESSAGE value="practice 4 part 2" />
-    <MESSAGE value="Switch tasks" />
-    <MESSAGE value="Switch tasks add comments" />
-    <MESSAGE value="While tasks" />
-    <MESSAGE value="DoWhile tasks" />
-    <MESSAGE value="BreakContinue tasks" />
-    <MESSAGE value="add description 1" />
-    <MESSAGE value="task 1" />
-    <MESSAGE value="task 1 cost_counter" />
-    <MESSAGE value="task 1 restaurant_manager" />
-    <MESSAGE value="task 3 contact_book" />
-    <MESSAGE value="task 4 user_monitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 4 user_monitor" />
-    <MESSAGE value="first 4 tasks" />
-    <MESSAGE value="add images" />
-    <MESSAGE value="add getters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getters" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Student.java</url>
-          <line>4</line>
-          <properties field="studentCount" class="practice_3.Student" />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Company1.java</url>
-          <line>3</line>
-          <properties field="companyName" class="practice_3.Company1" />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice_3/Company1.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/practice_6/photo_editor/Main.java</url>
-          <line>3</line>
-          <properties class="practice_6.photo_editor.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="move hw p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="move hw p1" />
   </component>
 </project>
