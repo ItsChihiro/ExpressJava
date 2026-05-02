@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="move hw p1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_7/Person.java" afterDir="false" />
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="pr7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/exceptions/checked/IOExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/exceptions/checked/SQLExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/exceptions/unchecked/IndexOutOfBoundsExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/exceptions/unchecked/NullPointerExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practice_8/library/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,22 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ItsChihiro"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ItsChihiro&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ItsChihiro/ExpressJava.git",
-    "accountId": "9a969e41-d512-4209-ad41-a358dd9cb27d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ItsChihiro/ExpressJava.git&quot;,
+    &quot;accountId&quot;: &quot;9a969e41-d512-4209-ad41-a358dd9cb27d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-25.0.1/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3Cd1UrtI7MZN6eYxZIJJlKv6BRt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,14 +54,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.IndexOutOfBoundsExceptionExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.NullPointerExceptionExample.executor": "Run",
+    "Application.SQLExceptionExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "practice7",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NullPointerExceptionExample">
+    <configuration name="IndexOutOfBoundsExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice_8.exceptions.unchecked.IndexOutOfBoundsExceptionExample" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice_8.exceptions.unchecked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practices.practice_7.Main" />
       <module name="first-project" />
@@ -68,8 +91,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NullPointerExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice_8.exceptions.unchecked.NullPointerExceptionExample" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice_8.exceptions.unchecked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQLExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice_8.exceptions.checked.SQLExceptionExample" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice_8.exceptions.checked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullPointerExceptionExample" />
+        <item itemvalue="Application.IndexOutOfBoundsExceptionExample" />
+        <item itemvalue="Application.SQLExceptionExample" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776699944655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pr7">
+      <option name="closed" value="true" />
+      <created>1776701946338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776701946338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="move hw p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="move hw p1" />
+    <MESSAGE value="pr7" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr7" />
   </component>
 </project>
