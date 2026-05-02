@@ -13,6 +13,7 @@ public class Main {
         treeMap.put("32345", "Sam");
         treeMap.put("13345", "Nick");
 
+        System.out.println("treeMap: " + treeMap);
         System.out.println("The min key in treeMap: " + treeMap.firstKey());
         System.out.println("The max key in treeMap: " + treeMap.lastKey());
     }

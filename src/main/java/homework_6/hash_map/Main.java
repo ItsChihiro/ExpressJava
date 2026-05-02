@@ -15,10 +15,10 @@ public class Main {
         hashMap.put("Eva", 17);
         hashMap.put("Olga", 18);
 
-        System.out.print("Print HashMap: ");
-        System.out.println(hashMap);
+        System.out.print("Print Raw HashMap: " + hashMap);
+        System.out.println();
 
-        System.out.println("Print HashMap: ");
+        System.out.println("Print Formatted HashMap: ");
         for (Map.Entry<String, Integer> map: hashMap.entrySet()) {
             System.out.println("Name: " + map.getKey() + ", age: " + map.getValue());
         }
@@ -27,16 +27,16 @@ public class Main {
 
         System.out.println("Task 3.");
 
-        HashMap<String, Integer> hashMapUsers = new HashMap<>();
+        HashMap<String, Integer> users = new HashMap<>();
 
-        hashMapUsers.put("Maria", 10);
-        hashMapUsers.put("Sam", 12);
-        hashMapUsers.put("Mark", 19);
-        hashMapUsers.put("Eva", 17);
-        hashMapUsers.put("Olga", 18);
-        hashMapUsers.put("Adam", 16);
+        users.put("Maria", 10);
+        users.put("Sam", 12);
+        users.put("Mark", 19);
+        users.put("Eva", 17);
+        users.put("Olga", 18);
+        users.put("Adam", 16);
 
-        printUsersUnderAge(hashMapUsers, 18);
+        printUsersUnderAge(users, 18);
     }
 
 

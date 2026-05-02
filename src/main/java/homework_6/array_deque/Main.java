@@ -13,9 +13,13 @@ public class Main {
         deque.addFirst("Change 3.");
         deque.addLast("Change 4.");
 
+        System.out.println("deque after adding the elements: " + deque);
+
         System.out.println(deque.removeFirst());
         System.out.println(deque.removeLast());
         System.out.println(deque.removeFirst());
         System.out.println(deque.removeLast());
+
+        System.out.println("deque after removing the elements: " + deque);
     }
 }

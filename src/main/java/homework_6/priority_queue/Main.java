@@ -15,6 +15,9 @@ public class Main {
         priorityQueue.offer(1);
         priorityQueue.offer(4);
 
+        System.out.println("Priority queue: " + priorityQueue);
+
+        System.out.println("Priority queue processing: ");
         while (!priorityQueue.isEmpty()) System.out.println(priorityQueue.poll());
     }
 }
