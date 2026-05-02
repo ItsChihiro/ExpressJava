@@ -6,22 +6,23 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Task 1.");
 
-        Set<Integer> hashSet1 = new java.util.HashSet<>();
+        Set<Integer> integers = new java.util.HashSet<>();
 
-        hashSet1.add(10);
-        hashSet1.add(20);
-        hashSet1.add(30);
-        hashSet1.add(40);
-        hashSet1.add(50);
+        integers.add(10);
+        integers.add(20);
+        integers.add(30);
+        integers.add(40);
+        integers.add(50);
 
-        System.out.println("Five numbers in HashSet: " + hashSet1);
+        System.out.println("Five numbers in HashSet: " + integers);
 
 
 
         System.out.println("Task 3.");
 
-        List<String> list3 = new ArrayList<>(Arrays.asList("Math", "English", "Biology", "Math", "English"));
-        System.out.println("List without duplicates: " + removeDuplicates(list3));
+        List<String> subjects = new ArrayList<>(Arrays.asList("Math", "English", "Biology", "Math", "English"));
+        System.out.println("List before removing duplicates: " + subjects);
+        System.out.println("List without duplicates: " + removeDuplicates(subjects));
 
 
 
@@ -36,15 +37,14 @@ public class Main {
         String defaultName1 = "Maria";
         String defaultName2 = "Diana";
 
+        System.out.println("All names: " + names);
         checkIfNameInSet(defaultName1, names);
         checkIfNameInSet(defaultName2, names);
     }
 
 
     public static Set<String> removeDuplicates(List<String> input) {
-        Set<String> hashSet = new HashSet<>();
-        hashSet.addAll(input);
-        return hashSet;
+        return new HashSet<>(input);
     }
 
 

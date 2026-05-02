@@ -14,6 +14,7 @@ public class Main {
         contacts.put("Nick", "32345");
         contacts.put("Mark", "42345");
 
+        System.out.println("All contacts: " + contacts);
         findPhoneNumber(contacts, "Eva");
         findPhoneNumber(contacts, "Nicky");
     }

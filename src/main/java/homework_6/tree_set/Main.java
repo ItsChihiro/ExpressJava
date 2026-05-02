@@ -13,6 +13,8 @@ public class Main {
         treeSet.add(12);
         treeSet.add(13);
 
+        System.out.println("All numbers: " + treeSet);
+
         int target = 12;
 
         Integer higher = treeSet.higher(target);
