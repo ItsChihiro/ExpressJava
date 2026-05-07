@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/array_deque/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/array_deque/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/array_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/array_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/hash_map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/hash_map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/hash_set/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/hash_set/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/linked_hash_map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/linked_hash_map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/linked_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/linked_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_6/priority_queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_6/priority_queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,6 @@
 }</component>
   <component name="ProjectId" id="3Cd1UrtI7MZN6eYxZIJJlKv6BRt" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -74,7 +66,7 @@
     "Application.practices.practice_8.library.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "hw6__fix",
+    "git-widget-placeholder": "hw7__exceptions",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -201,7 +193,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
