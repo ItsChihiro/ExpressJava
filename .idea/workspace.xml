@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" afterDir="false" />
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="create files for tasks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomCheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomCheckedException/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomUncheckedExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomUncheckedException/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleUncheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleUncheckedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HandleCheckedException.executor": "Run",
+    "Application.HandleUncheckedException.executor": "Run",
     "Application.IndexOutOfBoundsExceptionExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NullPointerExceptionExample.executor": "Run",
@@ -70,7 +76,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.homework_6.linked_list.Main">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework_7.exceptions" />
+      <recent name="homework_7.exceptions.CustomCheckedException" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HandleUncheckedException">
+    <configuration name="HandleUncheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_7.exceptions.HandleUncheckedException" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_7.exceptions.CustomCheckedException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_6.array_list.Main" />
       <module name="first-project" />
@@ -123,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practices.practice_8.library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practice_8.library.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.practice_8.library.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HandleUncheckedException" />
         <item itemvalue="Application.homework_6.linked_list.Main" />
         <item itemvalue="Application.homework_6.hash_map.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework_6.array_deque.Main" />
-        <item itemvalue="Application.practices.practice_8.library.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777729787159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create files for tasks">
+      <option name="closed" value="true" />
+      <created>1778169487620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778169487620</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +235,7 @@
     <MESSAGE value="move hw p1" />
     <MESSAGE value="pr7" />
     <MESSAGE value="pr8 exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr8 exceptions" />
+    <MESSAGE value="create files for tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="create files for tasks" />
   </component>
 </project>
