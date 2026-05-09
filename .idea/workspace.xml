@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="create files for tasks 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomCheckedException/InvalidAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomUncheckedException/InvalidEmailException.java" afterDir="false" />
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericClass/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/TwoTypeGeneric/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomCheckedException/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomCheckedException/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomUncheckedException/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/CustomUncheckedException/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleCheckedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleUncheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework_7/exceptions/HandleUncheckedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/TwoTypeGeneric.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +58,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Box.executor": "Run",
     "Application.HandleCheckedException.executor": "Run",
     "Application.HandleUncheckedException.executor": "Run",
     "Application.IndexOutOfBoundsExceptionExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NullPointerExceptionExample.executor": "Run",
+    "Application.Pair.executor": "Run",
     "Application.SQLExceptionExample.executor": "Run",
     "Application.homework_6.array_deque.Main.executor": "Run",
     "Application.homework_6.hash_map.Main.executor": "Run",
@@ -72,6 +74,7 @@
     "Application.homework_6.linked_list.Main.executor": "Run",
     "Application.homework_6.priority_queue.Main.executor": "Run",
     "Application.homework_7.exceptions.CustomCheckedException.Main.executor": "Run",
+    "Application.homework_7.generics.GenericMethod.Main.executor": "Run",
     "Application.practices.practice_8.library.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -85,26 +88,13 @@
       <recent name="homework_7.exceptions.CustomCheckedException" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HandleCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.exceptions.HandleCheckedException" />
+  <component name="RunManager" selected="Application.Pair">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_7.generics.GenericClass.Box" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_7.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandleUncheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.exceptions.HandleUncheckedException" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_7.exceptions.CustomCheckedException.*" />
+          <option name="PATTERN" value="homework_7.generics.GenericClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_6.linked_list.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_6.linked_list.Main" />
+    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_7.generics.TwoTypeGeneric.Pair" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_6.linked_list.*" />
+          <option name="PATTERN" value="homework_7.generics.TwoTypeGeneric.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework_7.generics.GenericMethod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_7.generics.GenericMethod.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_7.generics.GenericMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pair" />
+        <item itemvalue="Application.homework_7.generics.GenericMethod.Main" />
+        <item itemvalue="Application.Box" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework_7.exceptions.CustomCheckedException.Main" />
-        <item itemvalue="Application.HandleUncheckedException" />
-        <item itemvalue="Application.HandleCheckedException" />
-        <item itemvalue="Application.homework_6.linked_list.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778345897140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="exceptions">
+      <option name="closed" value="true" />
+      <created>1778349274084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778349274084</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +259,7 @@
     <MESSAGE value="pr8 exceptions" />
     <MESSAGE value="create files for tasks" />
     <MESSAGE value="create files for tasks 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="create files for tasks 2" />
+    <MESSAGE value="exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
   </component>
 </project>
