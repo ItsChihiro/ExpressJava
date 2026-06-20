@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericClass/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework_7/generics/TwoTypeGeneric/Pair.java" afterDir="false" />
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="generics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForMathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/FilterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/GroupByGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/SortedUniqueElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/GenericMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework_7/generics/TwoTypeGeneric.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,13 +62,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Box.executor": "Run",
+    "Application.GroupByGender.executor": "Run",
     "Application.HandleCheckedException.executor": "Run",
     "Application.HandleUncheckedException.executor": "Run",
     "Application.IndexOutOfBoundsExceptionExample.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MainForChecker.executor": "Debug",
     "Application.NullPointerExceptionExample.executor": "Run",
     "Application.Pair.executor": "Run",
     "Application.SQLExceptionExample.executor": "Run",
+    "Application.SortedUniqueElements.executor": "Run",
     "Application.homework_6.array_deque.Main.executor": "Run",
     "Application.homework_6.hash_map.Main.executor": "Run",
     "Application.homework_6.hash_set.Main.executor": "Run",
@@ -76,6 +82,8 @@
     "Application.homework_7.exceptions.CustomCheckedException.Main.executor": "Run",
     "Application.homework_7.generics.GenericMethod.Main.executor": "Run",
     "Application.practices.practice_8.library.Main.executor": "Run",
+    "Application.practices.practive9.funcinterfaces.Main.executor": "Run",
+    "Application.practices.practive9.streamapi.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "hw7__exceptions",
@@ -88,13 +96,26 @@
       <recent name="homework_7.exceptions.CustomCheckedException" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pair">
-    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.generics.GenericClass.Box" />
+  <component name="RunManager" selected="Application.SortedUniqueElements">
+    <configuration name="FilterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.FilterList" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_7.generics.GenericClass.*" />
+          <option name="PATTERN" value="practices.practive9.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupByGender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.GroupByGender" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practive9.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.exceptions.CustomUncheckedException.Main" />
+      <option name="MAIN_CLASS_NAME" value="practices.practive9.lambda.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_7.exceptions.CustomUncheckedException.*" />
+          <option name="PATTERN" value="practices.practive9.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.generics.TwoTypeGeneric.Pair" />
+    <configuration name="MainForChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practive9.funcinterfaces.MainForChecker" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_7.generics.TwoTypeGeneric.*" />
+          <option name="PATTERN" value="practices.practive9.funcinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,25 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_7.exceptions.CustomCheckedException.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.exceptions.CustomCheckedException.Main" />
+    <configuration name="SortedUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.SortedUniqueElements" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_7.exceptions.CustomCheckedException.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_7.generics.GenericMethod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_7.generics.GenericMethod.Main" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_7.generics.GenericMethod.*" />
+          <option name="PATTERN" value="practices.practive9.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pair" />
-        <item itemvalue="Application.homework_7.generics.GenericMethod.Main" />
-        <item itemvalue="Application.Box" />
+        <item itemvalue="Application.SortedUniqueElements" />
+        <item itemvalue="Application.GroupByGender" />
+        <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homework_7.exceptions.CustomCheckedException.Main" />
+        <item itemvalue="Application.MainForChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778349274084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="generics">
+      <option name="closed" value="true" />
+      <created>1778351895354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778351895354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +276,49 @@
     <MESSAGE value="create files for tasks" />
     <MESSAGE value="create files for tasks 2" />
     <MESSAGE value="exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/Checker.java</url>
+          <line>9</line>
+          <properties class="practices.practive9.funcinterfaces.Checker" method="printIfValid">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/Checker.java</url>
+          <line>7</line>
+          <properties class="practices.practive9.funcinterfaces.Checker" method="check">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForChecker.java</url>
+          <line>4</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForChecker.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForChecker.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
