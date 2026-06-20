@@ -1,4 +1,4 @@
-package practices.practive9.lambda;
+package practices.practice_9.lambda;
 
 public class Main {
     // анонимный класс

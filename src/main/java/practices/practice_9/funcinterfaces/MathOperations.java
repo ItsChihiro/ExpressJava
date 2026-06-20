@@ -1,4 +1,4 @@
-package practices.practive9.funcinterfaces;
+package practices.practice_9.funcinterfaces;
 
 @FunctionalInterface
 public interface MathOperations {

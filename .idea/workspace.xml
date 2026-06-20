@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="generics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MainForMathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/funcinterfaces/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/FilterList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/GroupByGender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practices/practive9/streamapi/SortedUniqueElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="320349be-101a-4d09-9abf-3af1ca688ee4" name="Changes" comment="practice 9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw7_exceptions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +76,7 @@
     "Application.practices.practive9.streamapi.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "hw7__exceptions",
+    "git-widget-placeholder": "pr9",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -98,11 +88,11 @@
   </component>
   <component name="RunManager" selected="Application.SortedUniqueElements">
     <configuration name="FilterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.FilterList" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_9.streamapi.FilterList" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practive9.streamapi.*" />
+          <option name="PATTERN" value="practices.practice_9.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="GroupByGender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.GroupByGender" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_9.streamapi.GroupByGender" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practive9.streamapi.*" />
+          <option name="PATTERN" value="practices.practice_9.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practive9.lambda.Main" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_9.lambda.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practive9.lambda.*" />
+          <option name="PATTERN" value="practices.practice_9.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="MainForChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practive9.funcinterfaces.MainForChecker" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_9.funcinterfaces.MainForChecker" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practive9.funcinterfaces.*" />
+          <option name="PATTERN" value="practices.practice_9.funcinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="SortedUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practive9.streamapi.SortedUniqueElements" />
+      <option name="MAIN_CLASS_NAME" value="practices.practice_9.streamapi.SortedUniqueElements" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practive9.streamapi.*" />
+          <option name="PATTERN" value="practices.practice_9.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778351895354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="practice 9">
+      <option name="closed" value="true" />
+      <created>1781973295875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781973295875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +275,8 @@
     <MESSAGE value="create files for tasks 2" />
     <MESSAGE value="exceptions" />
     <MESSAGE value="generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+    <MESSAGE value="practice 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

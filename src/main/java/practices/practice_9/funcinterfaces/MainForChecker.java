@@ -1,4 +1,4 @@
-package practices.practive9.funcinterfaces;
+package practices.practice_9.funcinterfaces;
 
 public class MainForChecker {
     public static void main(String[] args) {
